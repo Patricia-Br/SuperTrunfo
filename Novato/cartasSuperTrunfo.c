@@ -73,7 +73,7 @@ int main(){
   printf("Por fim, quantos pontos turísticos essa cidade possui? ");
   scanf("%d", &pontosTuristicos2);
 
-  printf("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ \n");
+  printf("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ \n");
 
   printf("RESULTADO\n");
   printf("Carta 1\n Estado: %s \n Código: %s \n Nome da cidade: %s \n População: %d habitantes \n Área: %2.f km² \n PIB: %1.f bilhões de reais \n Número de pontos turísticos: %d \n", estado1, codigoDaCarta1, nomeDaCidade1, populaçao1, area1, pib1, pontosTuristicos1);
