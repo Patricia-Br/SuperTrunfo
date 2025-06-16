@@ -8,6 +8,9 @@ int main(){
   int pontosTuristicos1, pontosTuristicos2;
   float pib1, pib2;
   float area1, area2;
+  //novas variaveis para armazenar o resultado da densidade populacional e do PIB per Capita
+  float densidadeHab1, densidadeHab2;
+  float pibPerCapita1, pibPerCapita2;
 
   // ENTRADA DE DADOS DA CARTA 1
   printf("-------------------------------------------------------------- \n");
