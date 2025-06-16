@@ -83,4 +83,5 @@ int main(){
   printf("RESULTADO\n");
   printf("Carta 2\n Estado: %s \n Código: %s \n Nome da cidade: %s \n População: %d habitantes \n Área: %.2f km² \n PIB: %.1f bilhões de reais \n Número de pontos turísticos: %d \n", estado2, codigoDaCarta2, nomeDaCidade2, populaçao2, area2, pib2, pontosTuristicos2 );
 
+  return 0;
 }
