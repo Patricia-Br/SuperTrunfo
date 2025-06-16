@@ -78,13 +78,21 @@ int main(){
 
   printf("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ \n");
 
+  // Calculandno a densidade populacional da carta 1 e 2
+  densidadeHab1 = populaçao1 / area1;
+  densidadeHab2 = populaçao2 / area2;
+
+  // Calculando o PIB per Capita da carta 1 e 2
+  pibPerCapita1 = pib1 / populaçao1; 
+  pibPerCapita2 = pib2 / populaçao2; 
+
   printf("RESULTADO\n");
-  printf("Carta 1\n Estado: %s \n Código: %s \n Nome da cidade: %s \n População: %d habitantes \n Área: %2.f km² \n PIB: %1.f bilhões de reais \n Número de pontos turísticos: %d \n", estado1, codigoDaCarta1, nomeDaCidade1, populaçao1, area1, pib1, pontosTuristicos1);
+  printf("Carta 1\n Estado: %s \n Código: %s \n Nome da cidade: %s \n População: %d habitantes \n Área: %2.f km² \n PIB: %1.f bilhões de reais \n Número de pontos turísticos: %d \n Densidade Populacional: %f hab/km² \n PIB per Capita: %f reais", estado1, codigoDaCarta1, nomeDaCidade1, populaçao1, area1, pib1, pontosTuristicos1, densidadeHab1, pibPerCapita1);
 
   printf("-------------------------------------------------------------- \n");
 
   printf("RESULTADO\n");
-  printf("Carta 2\n Estado: %s \n Código: %s \n Nome da cidade: %s \n População: %d habitantes \n Área: %.2f km² \n PIB: %.1f bilhões de reais \n Número de pontos turísticos: %d \n", estado2, codigoDaCarta2, nomeDaCidade2, populaçao2, area2, pib2, pontosTuristicos2 );
+  printf("Carta 2\n Estado: %s \n Código: %s \n Nome da cidade: %s \n População: %d habitantes \n Área: %.2f km² \n PIB: %.1f bilhões de reais \n Número de pontos turísticos: %d \n Densidade Populacional: %f hab/km² \n PIB per Capita: %f reais", estado2, codigoDaCarta2, nomeDaCidade2, populaçao2, area2, pib2, pontosTuristicos2, densidadeHab2, pibPerCapita2 );
 
   return 0;
 }
